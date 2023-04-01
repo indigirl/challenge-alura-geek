@@ -1,7 +1,7 @@
 header {
     align-items: center;
     display: flex;
-    margin: 1rem 4rem;
+    margin: 1rem 5rem;
 }
 .search{
     display: flex;
@@ -31,12 +31,17 @@ header {
     position: absolute;
     width: 40px;
 }
+.login {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 .login-btn {
     background-color: var(--branco);
     border: 1px solid var(--azul);
     color: var(--azul);
     cursor: pointer;
     height: 3rem;
-    margin-left: 31rem;
     width: 8rem;
 }
