@@ -1,0 +1,33 @@
+.banner {
+    position: absolute;
+    width: 100%;
+}
+.banner__title, .banner__description, .banner__btn {
+    position: absolute;
+    margin-left: 5rem;
+}
+.banner__title {
+    color: var(--branco);
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-top: 8rem;
+}
+.banner__description {
+    font-size: 1.5rem;
+    color: var(--branco);
+    margin-top: 13rem;
+}
+.banner__btn {
+    background-color: var(--azul);
+    border: none;
+    color: var(--branco);
+    cursor: pointer;
+    height: 3rem;
+    margin-top: 16rem;
+    transition: 1s;
+    width: 8rem;
+}
+.banner__btn:hover {
+    background-color: var(--branco);
+    color: var(--azul);
+}

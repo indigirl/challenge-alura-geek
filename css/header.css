@@ -43,5 +43,10 @@ header {
     color: var(--azul);
     cursor: pointer;
     height: 3rem;
-    width: 8rem;
+    transition: 1s;
+    width: 9rem;
+}
+.login-btn:hover {
+    background-color: var(--azul);
+    color: var(--branco);
 }
